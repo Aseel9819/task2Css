@@ -12,16 +12,24 @@ p{
  h2{
 margin-bottom: 26px;
 margin-left: 2px;
+font-weight: 900;
  }
  h3{
     margin: 7px;
  }
 
- 
+.products{
+    position: relative;
+} 
 
-.textdec{
-    text-decoration-line:underline ;
-    text-decoration-color: blue;
+.textdec:after{
+    content: '';
+    position: absolute;
+    background-color: #0866FF;
+    width: 49px;
+    height: 3px;
+    top: 30px;
+    left: 4px;
 }
 
 .products{
@@ -50,6 +58,7 @@ margin-left: 2px;
 
 .sale{
     color: red;
+    text-decoration: line-through;
 }
 
 .underpro{
